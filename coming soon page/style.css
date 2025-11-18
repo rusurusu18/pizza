@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background: url(https://media.istockphoto.com/id/924710322/photo/traverten-marble-stone.webp?b=1&s=170667a&w=0&k=20&c=0xkpleb7nxKx-OklF1fl-BSZ5AqYyE9WhbIZ2miOAh8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.root{
+    --primary-color:red;
+    --white-color:#fff;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 10%;  
+}
+nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.content{
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.heading{
+
+    padding-top: 350px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50px;
+    
+}
+.para{
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ul li{
+    color: #fff;
+    list-style: none;
+    display: flex;
+
+}
+.time ul li{
+    
+    display: inline-block;
+    font-size: 40px;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.day ul li{
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 20px;
+    justify-content: space-evenly;
+    margin-left: 33px;
+}
+p{
+    color: #fff;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.na{padding-top: 1opx;
+    border: 2px solid #fff;
+    background-color: #fff9;
+    padding: 4px;
+    border-radius: 10px;
+}
+.noti{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    background-color: #fff9;
+    padding: 2px;
+    border-radius: 10px;
+}
