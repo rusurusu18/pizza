@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background: url(https://media.istockphoto.com/id/1424018528/photo/light-pale-pink-purple-silk-satin-fabric-lilac-lavender-abstract-elegant-background-with.webp?b=1&s=170667a&w=0&k=20&c=7DYQre3stzSMSJ7u_hy_-VTmm618mTSUYMxuyJHP2_I= );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height:100vh;
+
+}
+:root{
+   --primary-color: #ff523b;
+   --white-color: #fff;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+background-color:#fff ;
+height: 500px;
+width: 900px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.box{
+    text-align: center;
+}
+
+h1{
+    font-size: 75px;
+    color: skyblue;
+
+}
+.o{
+    font-size: 20px;
+    color: grey;
+}
+h2{
+    color: grey;
+}
+a{
+    text-decoration: none;
+    background-color: #fff;
+    color: rgb(86, 185, 223);
+    border: 2px solid rgb(86, 185, 223);
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 6px;
+    transition: 0.4s ease;
+}
+a:hover{
+    border: 2px solid rgb(86, 185, 223);
+    background-color: rgb(86, 185, 223);
+    color: #fff;
+}
